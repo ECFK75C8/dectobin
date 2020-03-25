@@ -8,6 +8,6 @@ func main() {
   fmt.Print("Enter a decimal value to see it equivalent binary value: ")
   fmt.Scan(&input)
   
-  hex := fmt.Sprintf("%b", input)
-  fmt.Printf("Decimal %d => Binary: %s\n", input, hex)
+  bin := fmt.Sprintf("%b", input)
+  fmt.Printf("Decimal %d => Binary: %s\n", input, bin)
 }
